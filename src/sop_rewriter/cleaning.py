@@ -1,6 +1,6 @@
 import re
 
-def minimal_clean(text: str) -> str:
+def minimal_clean(text):
     """Minimal, MVP-grade cleaning for SOP PDF text.
 
     - Fix hyphenated line breaks (e.g., 'chemi-\ncal' -> 'chemical')
