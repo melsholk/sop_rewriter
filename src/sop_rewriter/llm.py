@@ -8,7 +8,7 @@ load_dotenv()
 class LLMConfig:
     model: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
-def call_openai_chat(prompt: str, model: str) -> str:
+def call_openai_chat(prompt, model):
     """Call OpenAI chat completions. Requires OPENAI_API_KEY env var."""
     from openai import OpenAI
     client = OpenAI()
