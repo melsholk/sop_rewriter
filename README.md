@@ -1,6 +1,6 @@
 # GenAI SOP Rewriter (MVP)
 
-A minimal, GitHub-ready project that rewrites existing SOP PDFs into a standardized SOP template using an LLM.
+A project that rewrites existing SOP PDFs into a standardized SOP template using an LLM.
 
 **Use case:** Convert messy/legacy SOPs into a consistent, audit-friendly first draft.  
 **Important:** Output is **draft-only** and requires engineer review.
